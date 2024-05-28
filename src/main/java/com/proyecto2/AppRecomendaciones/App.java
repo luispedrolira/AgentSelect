@@ -5,7 +5,7 @@ import java.util.List;
 
 public class App {
     public static void main(String[] args) {
-        try (EmbeddedNeo4j neo4j = new EmbeddedNeo4j("bolt://localhost:7687", "neo4j", "password")) {
+        try (EmbeddedNeo4j neo4j = new EmbeddedNeo4j("bolt://localhost:7687", "neo4j", "123456789")) {
             Scanner scanner = new Scanner(System.in);
             while (true) {
                 System.out.println("Menú de Recomendaciones");
